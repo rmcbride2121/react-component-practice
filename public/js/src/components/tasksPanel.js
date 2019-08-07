@@ -5,9 +5,7 @@ function TasksPanel(){
     </div>
     <div className="panel-body">
         <div className="list-group">
-            {/*   <TaskItem>    */}
                 <TasksItem />
-            {/*   </TaskItem>    */}
             
         </div>
         <div className="text-right">

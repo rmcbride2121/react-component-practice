@@ -8,9 +8,7 @@ function MessagesPreview(){
             <div className="media-body">
                 <h5 className="media-heading"><strong>John Smith</strong>
                 </h5>
-                {/*  <DateTime>   */}
                     <DateTime />
-                {/*  </DateTime>   */}
                 <p>Lorem ipsum dolor sit amet, consectetur...</p>
             </div>
         </div>

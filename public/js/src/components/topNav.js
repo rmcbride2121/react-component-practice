@@ -3,12 +3,7 @@ function TopNav(){
     <li className="dropdown">
         <a href="#" className="dropdown-toggle" data-toggle="dropdown"><i className="fa fa-envelope"></i> <b className="caret"></b></a>
         <ul className="dropdown-menu message-dropdown">
-
-            {/*  <MessagePreview>   */}
-                    <MessagesPreview />
-            {/*  </MessagePreview>   */}
-
-
+                <MessagesPreview />
             <li className="message-footer">
                 <a href="#">Read All New Messages</a>
             </li>

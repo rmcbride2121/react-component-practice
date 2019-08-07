@@ -15,9 +15,7 @@ function TransactionsPanel(){
                     </tr>
                 </thead>
                 <tbody>
-                    {/*   <TransactionRow>   */}
-                            <TransactionRow />
-                    {/*   </TransactionRow>   */}
+                    <TransactionRow />
                 </tbody>
             </table>
         </div>
