@@ -24,10 +24,10 @@ function App(){
                       </div>
                   </div>
                   <div className="row">
-                        <Comments />
-                        <Tasks />
-                        <Orders />
-                        <Tickets />
+                        <Comments newComments="New Comments!" />
+                        <Tasks newTasks="New Tasks!" />
+                        <Orders newOrders="New Orders!" />
+                        <Tickets newTickets="New Tickets!" />
                   </div>
                         <AreaChart />
                   <div className="row">
