@@ -2,13 +2,8 @@ function App(){
     return(<div> 
         <div id="wrapper">
           <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            {/*   <TopNav>   */}
                 <TopNav />
-            {/*   </TopNav>   */}
-
-            {/*   <SideNav>   */}
-                 <SideNav />
-            {/*   </SideNav>   */}
+                <SideNav />
           </nav>
   
           <div id="page-wrapper">
@@ -29,55 +24,19 @@ function App(){
                       </div>
                   </div>
                   <div className="row">
-  
-                    {/*   </Comments>   */}
                         <Comments />
-                    {/*   </Comments>   */}
-  
-                    {/*   <Tasks>   */}
                         <Tasks />
-                    {/*   </Tasks>   */}
-  
-                    {/*   <Orders>   */}
                         <Orders />
-                    {/*   </Orders>   */}
-  
-  
-                    {/*   <Tickets>   */}
                         <Tickets />
-                    {/*   </Tickets>   */}
-  
-  
-  
-  
                   </div>
-                  
-                  {/*   <AreaChart>   */}
                         <AreaChart />
-                  {/*   </AreaChart>   */}
-  
                   <div className="row">
-  
-  
-                      {/*   <DonutChart>   */}
-                            <DonutChart />
-                      {/*   </DonutChart>   */}
-  
-  
+                        <DonutChart />
                       <div className="col-lg-4">
-                          {/*   <TasksPanel>   */}
-                                <TasksPanel />
-                          {/*   </TasksPanel>   */}
-  
-  
+                            <TasksPanel />
                       </div>
                       <div className="col-lg-4">
-  
-  
-                          {/*   </TransactionsPanel>   */}
-                                <TransactionsPanel />
-                          {/*   </TransactionsPanel>   */}
-  
+                            <TransactionsPanel />
                       </div>
                   </div>
                   
